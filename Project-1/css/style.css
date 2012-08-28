@@ -1,0 +1,101 @@
+/*title: form.html Stylesby: Joshua HeadTerm 1208*/
+
+
+
+
+body {	//background-color: black;
+    background-image: -moz-radial-gradient(270deg, green 0%, #000 100% );    background-image: -webkit-linear-gradient(90deg, black 0%, green 100%);
+    margin: 0 auto;
+    width: 100%;
+}
+#wrapper {
+    background-attachment: scroll;
+    //background-image: -moz-linear-gradient(-90deg, black 0%, #FFFFFF 100%);    background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
+    border-radius: 26px 26px 26px 26px;
+    padding-top: 10px;
+}
+#content {
+    padding: 20px;
+}
+header {
+    background: none repeat scroll 0 0 #00C12B;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    color: white;
+    margin: 0 auto;
+    padding: 12px;
+}
+li, h1 {
+    color: white;
+    display: table;
+    font-size: 50px;
+    padding: 8px 0 0;
+    text-decoration: none;
+}
+input {
+    
+    border-radius: 25px 25px 25px 25px;
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    height: 50px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 100%;
+}
+legend {
+    color: white;
+}
+#buttons a {
+    color: yellow;
+    text-decoration: none;
+}
+fieldset {
+    background: none repeat scroll 0 0 #329D27;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 24px;
+}
+#buttons {
+    border: 2px none;
+    text-align: center;
+}
+#wbutton {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    height: 50px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 100%;
+}
+#wbutton a {
+    color: red;
+    text-decoration: none;
+}
+input.range {
+    color: white;
+}
+h3 {
+    color: white;
+    font-family: comic sans ms;
+    font-size: 36px;
+}
+h2 {
+    color: yellow;
+    font-size: 48px;
+}
+textarea {
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 32px;
+    height: 150px;
+    resize: inherit;
+    width: 100%;
+}
+#submit{
+	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);
+}
