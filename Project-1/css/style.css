@@ -119,7 +119,7 @@ textarea {
     text-decoration: none;
     text-transform: capitalize;
 }li a.ct-list {
-    border-radius: 7px 7px;    background-color: lightblue;    width: 100%;
+    border-radius: 7px 7px;    background-color: lightblue;
     background: -moz-linear-gradient(-270deg, tan 0%, ghostwhite 100% );    background: -webkit-linear-gradient(90deg, tan 0%, ghostwrite 100%);
     padding: 5px 75px 0 0;
     text-decoration: none;
