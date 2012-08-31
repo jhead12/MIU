@@ -4,13 +4,13 @@
 
 
 body {	//background-color: black;
-    background-image: -moz-radial-gradient(270deg, green 0%, #000 100% );    background-image: -webkit-linear-gradient(90deg, black 0%, green 100%);
+    background-image: -moz-radial-gradient(-270deg, green 0%, #000 100% );    background-image: -webkit-linear-gradient(-90deg, black 0%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
     margin: 0 auto;
     width: 100%;
 }
 #wrapper {
     background-attachment: scroll;
-    //background-image: -moz-linear-gradient(-90deg, black 0%, #FFFFFF 100%);    background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
+    //background-image: -moz-linear-gradient(-90deg, black 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
     border-radius: 26px 26px 26px 26px;
     padding-top: 10px;
 }
@@ -36,15 +36,14 @@ li, h1 {
     text-decoration: none;
 }
 input {
-    
     border-radius: 25px 25px 25px 25px;
-    color: white;
+    color: lightblue;
     font-family: Comic Sans MS;
     font-size: 32px;
     height: 50px;
     padding-bottom: 2px;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
 legend {
     color: white;
@@ -72,9 +71,16 @@ fieldset {
     text-align: center;
     width: 100%;
 }
-#wbutton a {
-    color: red;
-    text-decoration: none;
+#wbutton {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    height: 50px;
+    margin: 0 auto;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 19%;
 }
 input.range {
     color: white;
@@ -98,4 +104,18 @@ textarea {
 }
 #submit{
 	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);
+}#feature {
+    background: none repeat scroll 0 0 white;
+    height: 233px;
+    margin-left: auto;
+    width: 400px;    background-image:  url(../images/CTA.png);    background-repeat: no-repeat;
+}.link{
+	color: black;	font-size: 36px;
+}.link a {
+    color: black;
+    float: right;
+    font-size: 36px;
+    margin: 190px 97px 3px 0;
+    text-decoration: none;
+    text-transform: capitalize;
 }
