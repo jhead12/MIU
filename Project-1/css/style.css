@@ -4,15 +4,15 @@
 
 
 body {	//background-color: black;
-    background-image: -moz-radial-gradient(-270deg, green 0%, #000 100% );    background-image: -webkit-linear-gradient(-90deg, black 0%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
+    background-image: -moz-radial-gradient(-270deg, white 0%, #000 100% );    background-image: -webkit-linear-gradient(-90deg, white 0%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
     margin: 0 auto;
     width: 100%;
 }
 #wrapper {
     background-attachment: scroll;
-    //background-image: -moz-linear-gradient(-90deg, black 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
+    background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
     border-radius: 26px 26px 26px 26px;
-    padding-top: 10px;
+    padding-top: 10px;    height: 1100px;
 }
 #content {
     padding: 20px;
@@ -118,4 +118,10 @@ textarea {
     margin: 190px 97px 3px 0;
     text-decoration: none;
     text-transform: capitalize;
+}li a.ct-list {
+    border-radius: 7px 7px;    background-color: lightblue;    width: 100%;
+    background: -moz-linear-gradient(-270deg, tan 0%, ghostwhite 100% );    background: -webkit-linear-gradient(90deg, tan 0%, ghostwrite 100%);
+    padding: 5px 75px 0 0;
+    text-decoration: none;
+    color: white;
 }
