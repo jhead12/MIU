@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--Joshua Head
+	MIU 1209
+	Project 2
+	
+	 -->
+
+
+<html>
+
+<head>	<title> Wish Lister</title>	<meta http-equiv="Content-type" content="text/html charset=utf-8">	<meta name=" description" content="My html5 Document">	<meta name=" keywords" content="">	<meta name=" robots" content="">
+	<meta http-equiv="Content-type" content="text/html charset=utf-8">
+	
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="style" charset="utf-8">
+			<!--[if lt IE 9]>	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">	</script>	<![endif]-->	
+	<!-- This web app that allows people to create wish list for any Occasion and share it with their friends, in hopes to receive the gift. The first production of the list will be for studio goods.  -->
+</head>	<body>		<div id="wrapper">								<div id="content">					<header>					<h1>Make your wish</h1>								<div id="buttons">								<a href="#"	id="clear">Clear Data</a>								<a href="#" id="displayLink">Display Data</a>								<a href="additem.html" id="addNew" style="display: none">Add New</a>							</div>												</header>					<br/>										 	<form method="post" action="#" id="contactForm">							<fieldset>								<legend>Your Info</legend>									<h1>What is your information</h1>									<ul	id="errors"></ul>										<ul>												<li>													<label for="fname">Firstname</label><input type="text" id="fname" ></li>												<li>													<label for="lname">Last Name</label><input type="text" id="lname" aria-required  /></li>												<li>Are you Male or Female?														<ul>															<li><label for="male">Male:</label><input type="radio" name="sex" value="male" id="male" checked  />															<li><label for="female">Female:</label><input type="radio" name="sex" value="female" id="female"   /></li>														</ul>												</li>																<li><label for="email">Your Email Address:</label><input type="email" name="emailAdress" id="email"  /></li>										</ul>							</fieldset>							<fieldset>								<legend>Wish Details</legend>										<h1>What Do You Wish For?</h1>									<ul id="questions">																				<li id="select"><label for="group" id="groups" >**Type of Item**</label></label><br/>											</li>																					<li><label for="date"> When would you Like your wish Granted?</label>
+												<input type="date" value="" name="search" id="date"></li>														<li><label for="needOrWant">Is it a Need or Want?</label>															<ul>
+																<li><input type="range" id="iq" max="100%" min="0%" value="50%" name="wantORneed">																</li>															</ul>															<li><label for="stateWhy">Why should your wish be granted?</label>
+																<li><textarea id="statement"></textarea>																											</li>									</ul>							</fieldset>							<input id="submit" value="Save Contact" type="submit"  required="" name="submit">										</form>																								</div>			</div>			<script src="js/main.js" type="text/javascript"></script>			<script src="js/JSON.js" type="text/javascript"></script>	</body>
+
+</html>
