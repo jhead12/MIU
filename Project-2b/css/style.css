@@ -3,16 +3,7 @@
 
 
 
-body {	//background-color: black;
-    background-image: -moz-radial-gradient(-270deg, white 0%, #000 100% );    background-image: -webkit-linear-gradient(-90deg, white 0%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
-    margin: 0 auto;
-    width: 100%;
-}header {
-    background: none repeat scroll 0 0 #00C12B;
-    border-radius: 20px 20px 20px 20px;
-    padding: 10px;
-    text-align: center;
-}
+
 #wrapper {
     background-attachment: scroll;
     background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
@@ -47,7 +38,7 @@ input {
 }
 legend {
     color: white;
-}
+
 #buttons a {
     color: yellow;
     text-decoration: none;
@@ -82,18 +73,8 @@ fieldset {
     text-align: center;
     width: 19%;
 }
-input.range {
-    color: white;
-}
-h3 {
-    color: white;
-    font-family: comic sans ms;
-    font-size: 15px;    text-align: center;
-}
-h2 {
-    color: yellow;
-    font-size: 48px;
-}
+
+
 textarea {
     background-color: #FFFFFF;
     border-radius: 8px 8px 8px 8px;
@@ -108,10 +89,8 @@ textarea {
     background: none repeat scroll 0 0 white;
     height: 233px;
     margin-left: auto;
-    min-width: 320px;    max-width: 1150px;    background-image:  url(..Project2-B/images/CTA.png);    background-repeat: no-repeat;    
-}.link{
-	color: black;	font-size: 36px;
-}.link a {
+    min-width: 320px;    max-width: 1150px;    background-image:  url(../images/CTA-1.png);    background-repeat: no-repeat;    background-size: contain;    
+.link a {
     color: black;
     float: right;
     font-size: 36px;
@@ -126,4 +105,4 @@ textarea {
     color: white;
 }footer{
 	border: black;	width: 100%;
-}
+}

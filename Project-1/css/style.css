@@ -4,43 +4,45 @@
 
 
 body {	//background-color: black;
-    background-image: -moz-radial-gradient(-270deg, white 0%, #000 100% );    background-image: -webkit-linear-gradient(-90deg, white 0%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
+    background: green;    background-image: -webkit-linear-gradient(-90deg, lightgreen 30%%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
     margin: 0 auto;
     width: 100%;
 }
 #wrapper {
     background-attachment: scroll;
-    background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
-    border-radius: 26px 26px 26px 26px;
-    padding-top: 10px;    height: 1100px;
+    //background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
+   	//border: black;
+    //padding-top: 10px;    //width: 100%;
 }
 #content {
     padding: 20px;
 }
 header {
     background: none repeat scroll 0 0 #00C12B;
-    border-radius: 20px 20px 20px 20px;
+    width: 100%;
     padding: 10px;
     text-align: center;
 }
 h1 {
     color: white;
     margin: 0 auto;
-    padding: 12px;
+    padding: 12px;    text-align: center;    
 }
 li, h1 {
     color: white;
     display: table;
-    font-size: 50px;
+    font-size: 36px;
     padding: 8px 0 0;
-    text-decoration: none;
+    text-decoration: none;    
+}h3{
+	text-align: center;
 }
 input {
     border-radius: 25px 25px 25px 25px;
     color: lightblue;
     font-family: Comic Sans MS;
     font-size: 32px;
-    height: 50px;
+    height: inherit;
     padding-bottom: 2px;
     text-align: center;
     width: auto;
@@ -56,6 +58,7 @@ fieldset {
     background: none repeat scroll 0 0 #329D27;
     border-radius: 20px 20px 20px 20px;
     font-size: 24px;
+    min-width: 300px;    max-width: 1200px;
 }
 #buttons {
     border: 2px none;
@@ -85,15 +88,7 @@ fieldset {
 input.range {
     color: white;
 }
-h3 {
-    color: white;
-    font-family: comic sans ms;
-    font-size: 36px;
-}
-h2 {
-    color: yellow;
-    font-size: 48px;
-}
+
 textarea {
     background-color: #FFFFFF;
     border-radius: 8px 8px 8px 8px;
@@ -103,12 +98,12 @@ textarea {
     width: 100%;
 }
 #submit{
-	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);
+	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);	width: 100%;
 }#feature {
-    background: none repeat scroll 0 0 white;
+    background: none repeat scroll 0 0 white;    margin: 0 auto;
     height: 233px;
     margin-left: auto;
-    width: 400px;    background-image:  url(../images/CTA.png);    background-repeat: no-repeat;
+    width: 100%;    background-image:  url(../images/CTA.png);    background-repeat: no-repeat;    background-size: contain;
 }.link{
 	color: black;	font-size: 36px;
 }.link a {
@@ -118,10 +113,11 @@ textarea {
     margin: 190px 97px 3px 0;
     text-decoration: none;
     text-transform: capitalize;
-}li a.ct-list {
-    border-radius: 7px 7px;    background-color: lightblue;
-    background: -moz-linear-gradient(-270deg, tan 0%, ghostwhite 100% );    background: -webkit-linear-gradient(90deg, tan 0%, ghostwrite 100%);
-    padding: 5px 75px 0 0;
-    text-decoration: none;
-    color: white;
+}ul.cat1 li  {	background-origin: border-box;	-webkit-appearance: button;	-moz-appearance: button;	width:100%;	font-size: 30px;	text-align: center;	text-decoration: none;   
+}.ct-list {
+    color: green;
+    text-decoration: none;}footer{
+	background-color: black;	width: 100%;	height: 80px;	background-attachment: fixed;
+}#categories{
+		text-align: center;	margin: 0 auto;
 }
