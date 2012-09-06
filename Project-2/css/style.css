@@ -7,22 +7,22 @@ body {	//background-color: black;
     background-image: -moz-radial-gradient(-270deg, white 0%, #000 100% );    background-image: -webkit-linear-gradient(-90deg, white 0%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
     margin: 0 auto;
     width: 100%;
-}
-#wrapper {
-    background-attachment: scroll;
-    background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
-    border-radius: 26px 26px 26px 26px;
-    padding-top: 10px;    height: 1100px;
-}
-#content {
-    padding: 20px;
-}
-header {
+}header {
     background: none repeat scroll 0 0 #00C12B;
     border-radius: 20px 20px 20px 20px;
     padding: 10px;
     text-align: center;
 }
+#wrapper {
+    background-attachment: scroll;
+    background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
+    border-radius: 26px 26px 26px 26px;
+    padding-top: 10px;    height: 1100px;    width: 100%;
+}
+#content {
+    padding: 20px;
+}
+
 h1 {
     color: white;
     margin: 0 auto;
@@ -31,7 +31,7 @@ h1 {
 li, h1 {
     color: white;
     display: table;
-    font-size: 50px;
+    font-size: 18px;
     padding: 8px 0 0;
     text-decoration: none;
 }
@@ -39,8 +39,8 @@ input {
     border-radius: 25px 25px 25px 25px;
     color: lightblue;
     font-family: Comic Sans MS;
-    font-size: 32px;
-    height: 50px;
+    font-size:  medium;
+    height: medium;
     padding-bottom: 2px;
     text-align: center;
     width: auto;
@@ -88,7 +88,7 @@ input.range {
 h3 {
     color: white;
     font-family: comic sans ms;
-    font-size: 36px;
+    font-size: 15px;    text-align: center;
 }
 h2 {
     color: yellow;
@@ -103,12 +103,12 @@ textarea {
     width: 100%;
 }
 #submit{
-	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);
+	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);	width: 100%;
 }#feature {
     background: none repeat scroll 0 0 white;
     height: 233px;
     margin-left: auto;
-    width: 400px;    background-image:  url(../images/CTA.png);    background-repeat: no-repeat;
+    min-width: 320px;    max-width: 1150px;    background-image:  url(../images/CTA.png);    background-repeat: no-repeat;    
 }.link{
 	color: black;	font-size: 36px;
 }.link a {
@@ -124,4 +124,6 @@ textarea {
     padding: 5px 75px 0 0;
     text-decoration: none;
     color: white;
+}footer{
+	border: black;	width: 100%;
 }
