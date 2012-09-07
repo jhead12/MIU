@@ -25,12 +25,12 @@ header {
     text-align: center;
 }
 h1 {
-    color: white;
+    //color: white;
     margin: 0 auto;
     padding: 12px;    text-align: center;    
 }
 li, h1 {
-    color: white;
+    //color: white;
     display: table;
     font-size: 36px;
     padding: 8px 0 0;
@@ -55,12 +55,12 @@ legend {
     color: yellow;
     text-decoration: none;
 }
-fieldset {
+/*fieldset {
     background: none repeat scroll 0 0 #329D27;
     border-radius: 20px 20px 20px 20px;
     font-size: 24px;
     min-width: 300px;    max-width: 1200px;
-}
+}*/
 #buttons {
     border: 2px none;
     text-align: center;
