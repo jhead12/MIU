@@ -5,12 +5,12 @@
 
 
 body {	//background-color: black;
-    background: green;    background-image: -webkit-linear-gradient(-90deg, lightgreen 30%%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
+   // background: green;    //background-image: -webkit-linear-gradient(-90deg, lightgreen 30%%, green 100%);    background-repeat: no-repeat;    background-attachment: scroll;
     margin: 0 auto;
     width: 100%;
 }
 #wrapper {
-    background-attachment: scroll;
+    //background-attachment: scroll;
     //background-image: -moz-linear-gradient(-90deg, green 0%, #FFFFFF 100%);    //background-image: -webkit-linear-gradient(90deg, black 0%, white 100%);
    	//border: black;
     //padding-top: 10px;    //width: 100%;
