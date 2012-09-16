@@ -3,4 +3,6 @@ Assignment 3
 Joshua Head
 
 http://jhead12.github.com/MIU/Project-3/Gold/index.html
+
+http://jhead12.github.com/MIU/Project-3/Bronze/index.html
 git@github.com:jhead12/MIU.git
