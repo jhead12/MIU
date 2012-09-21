@@ -18,25 +18,25 @@ body {	//background-color: black;
 #content {
     padding: 20px;
 }
-header {
+/*header {
     background: none repeat scroll 0 0 #00C12B;
     width: 100%;
     padding: 10px;
     text-align: center;
-}
-h1 {
-    //color: white;
+}*/
+/*h1 {
+    color: black;
     margin: 0 auto;
     padding: 12px;    text-align: center;    
-}
-li, h1 {
-    //color: white;
+}*/
+li{
+    color: white;
     display: table;
     font-size: 36px;
     padding: 8px 0 0;
     text-decoration: none;    
 }h3{
-	text-align: center;
+	text-align: center;	color: white;
 }
 input {
     border-radius: 25px 25px 25px 25px;
@@ -90,22 +90,22 @@ input.range {
     color: white;
 }
 
-textarea {
+/*textarea {
     background-color: #FFFFFF;
     border-radius: 8px 8px 8px 8px;
     font-size: 32px;
     height: 150px;
     resize: inherit;
     width: 100%;
-}
-#submit{
+}*/
+/*#submit{
 	background-image: -moz-linear-gradient(-90deg, white 0%, red 100%);	background-image: -webkit-linear-gradient(-90deg, white 0%, red 100%);	width: 100%;
-}#feature {
+}*/#feature {
     background: none repeat scroll 0 0 white;    margin: 0 auto;
     height: 233px;
     margin-left: auto;
-    width: 100%;    background-image:  url(../images/CTA-1.png);    background-repeat: no-repeat;    background-size: contain;
-}.link{
+    width: 100%;    //background-image:  url(../images/CTA-1.png);    background-repeat: no-repeat;    background-size: contain;
+}/*.link{
 	color: black;	font-size: 36px;
 }.link a {
     color: black;
@@ -114,13 +114,34 @@ textarea {
     margin: 190px 97px 3px 0;
     text-decoration: none;
     text-transform: capitalize;
-}ul.cat1 li  {	background-origin: border-box;	-webkit-appearance: button;	-moz-appearance: button;	width:100%;	font-size: 30px;	text-align: center;	text-decoration: none;   
-}.ct-list {
-    color: green;
-    text-decoration: none;}footer{
+}*//*footer{
 	background-color: black;	width: 100%;	height: 80px;	background-attachment: fixed;
-}#categories{
+}*/#categories{
 		text-align: center;	margin: 0 auto;
 }.ui-icon-my-spraycan {
 	background-image: url(../images/49.png);	background-size: 18px;
+}#press{	 background: none repeat scroll 0 0 white;    margin: 0 auto;
+    height: 233px;
+    margin-left: auto;
+    width: 100%;    background-image:  url(../images/CTA-1.png);    background-repeat: no-repeat;    background-size: contain;
+	
+}#title-bar{
+    background: none repeat scroll 0 0 white;
+    height: 104px;
+    margin: 39px auto 0;
+    width: auto;    }    .bg-top{
+		    background: url("../images/bg-top.gif") repeat scroll 0 0 transparent;
+    height: 11em;
+}#title{
+		
+}
+#logo-top {
+   // margin: 0 35em;
+}.bg-content {
+    background: #5e1616;
+}
+.fo*/rm-color{
+		color: white;
+}.form-color a {
+		color: red;
 }
